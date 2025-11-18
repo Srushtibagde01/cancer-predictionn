@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns 
+
 
 # Code cell
 df = pd.read_csv("C:\\Users\\ASUS\\Downloads\\gene_expression.csv")
@@ -13,7 +13,6 @@ plt.scatter(x=df["Gene One"],y=df["Gene Two"])
 plt.show()
 
 # Code cell
-sns.scatterplot(data=df,x=df["Gene One"],y=df["Gene Two"],hue="Cancer Present")
 # plt.xlim(2,8)
 # plt.ylim(2,6)
 plt.show()
