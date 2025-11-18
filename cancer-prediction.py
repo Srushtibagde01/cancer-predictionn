@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Code cell
-df = pd.read_csv("C:\\Users\\ASUS\\Downloads\\gene_expression.csv")
+df = pd.read_csv("gene_expression.csv")
 df
 
 # Code cell
